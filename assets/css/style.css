@@ -1,9 +1,16 @@
 body {
-    line-height: 1.8;
+    line-height: 1.7;
+    font-family: 'Raleway', sans-serif;
 }
+p {
+    font-size: 15px;
+}
+
+/* OMAR NAVA TITLE */
 
 #home {
     padding: 250px 0px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #name-title {
@@ -17,7 +24,7 @@ body {
     color: white;
 }
 
-/* Create a Parallax Effect */
+        /* Create a Parallax Effect */
 .big-img1 {
     background-attachment: fixed;
     background-position: center;
@@ -25,8 +32,18 @@ body {
     background-size: cover;
   }
   
-/* First image */
+    /* First image */
 .big-img1 {
 background-image: url("../images/portrait.jpg");
 min-height: 100%;
 }  
+
+/* ABOUT ME */
+.about-me {
+  margin: 40px 5px;
+}
+
+#about-me-title {
+    margin-bottom: 3rem;
+}
+
