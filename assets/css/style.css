@@ -1,6 +1,10 @@
-body {
+html, body {
     line-height: 1.7;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+.row {
+    margin: 0;
 }
 p {
     font-size: 15px;
@@ -53,6 +57,10 @@ p {
     font-size: 1.75rem;
 }
 
+.p-about-me {
+    padding: 0 10em;
+}
+
 /* WEB DEV IMAGE */
 .back-img2 {
     background-image: url("../images/web-developer.jpeg");
@@ -63,4 +71,20 @@ p {
 #web-dev-title {
     letter-spacing: 10px;
     font-size: 1.75rem;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .p-about-me {
+        padding: 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .about-me {
+        padding: 2rem;
+    }
+    
 }
