@@ -15,7 +15,7 @@ p {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 /* NAV BAR */
@@ -42,8 +42,6 @@ p {
 
 .back-img1 {
     background-image: url("../images/portrait.jpg");
-    height: auto;
-    max-width: 100%;
 }  
 
 /* ABOUT ME */
@@ -56,6 +54,12 @@ p {
     margin-bottom: 3rem;
     letter-spacing: 10px;
     font-size: 1.75rem;
+}
+
+#about-me-line {
+    width: 150px;
+    height: 1px;
+    margin: -20px auto 30px auto;
 }
 
 .p-about-me {
@@ -72,20 +76,32 @@ p {
 #web-dev-title {
     letter-spacing: 10px;
     font-size: 1.75rem;
+    line-height: 40px;
 }
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
+    .p-about-me {
+        padding: 0 200px;
+    }
+    
+}
+
+@media (max-width:1200px) and (min-width:540px) {
+    .p-about-me {
+        padding: 0 40px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
     .p-about-me {
         padding: 0 0;
     }
     
-}
-
-@media screen and (max-width: 540px) {
     .about-me {
-        padding: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
-    
 }
