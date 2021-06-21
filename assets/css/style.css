@@ -1,0 +1,32 @@
+body {
+    line-height: 1.8;
+}
+
+#home {
+    padding: 250px 0px;
+}
+
+#name-title {
+    letter-spacing: 10px;
+    color: white;
+    text-shadow: grey;
+}
+
+#job-subtitle {
+    letter-spacing: 4px;
+    color: white;
+}
+
+/* Create a Parallax Effect */
+.big-img1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+/* First image */
+.big-img1 {
+background-image: url("../images/portrait.jpg");
+min-height: 100%;
+}  
