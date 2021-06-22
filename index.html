@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- Link to CSS Stylesheet -->
     <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <!-- Link to Font Awesome -->
+    <script src="https://kit.fontawesome.com/f7e2932c1b.js" crossorigin="anonymous"></script>
     <!-- Link to Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700;800&display=swap" rel="stylesheet">
@@ -29,15 +31,15 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="#about-me">About Me</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                <li><a class="dropdown-item" href="#web-development">Web Development</a></li>
                                 <li><a class="dropdown-item" href="#">Graphic Design</a></li>
                                 <li><a class="dropdown-item" href="#">Photography</a></li>
                             </ul>
@@ -65,7 +67,7 @@
         </div>
 
         <!-- Web Developer Image -->
-        <div class="back-img2 text-center">
+        <div class="back-img2 text-center" id="web-development">
             <h3 class="display-2 fw-light text-white" id="web-dev-title">WEB DEVELOPMENT</h3>
         </div>
 
@@ -110,9 +112,10 @@
                     <img class="contact-img img-fluid" src="assets/images/coffee-and-laptop.jpeg" style="height: 225px; display: block; float: right;">
                 </div>
                 <div class="col-md-6 contact-info">
-                    <h6> Charlotte, NC </h6>
-                    <h6> Phone Number </h6>
-                    <h6> Email </h6>
+                    <h6> <i class="contact-icon fas fa-map-marker-alt"></i> Charlotte, NC </h6>
+                    <h6> <i class="contact-icon fas fa-phone-alt"></i> 252.375.7430 </h6>
+                    <h6> <i class="contact-icon far fa-paper-plane"></i> einernava@gmail.com </h6>
+                    <h6> <i class="contact-icon fas fa-file-pdf"></i> <a>Resume</a> </h6>
                 </div>
             </div>
         </div>
@@ -120,7 +123,13 @@
 
     <!-- Footer Section -->
     <footer>
-
+        <div class="icon-links d-flex justify-content-center">
+            <a class="mx-2 icon" href="https://instagram.com/einer.nava"> <i class="fab fa-instagram fa-2x"></i> </a>
+            <a class="mx-2 icon" href="https://instagram.com/einer.nava"> <i class="fab fa-github fa-2x"></i> </a>
+            <a class="mx-2 icon" href="https://instagram.com/einer.nava"> <i class="fab fa-linkedin fa-2x"></i></a>
+            <a class="mx-2 icon" href="https://instagram.com/einer.nava"> <i class="fab fa-linkedin-in fa-2x"></i> </a>
+        </div>
+        <p class="copyright d-flex justify-content-center"> &#169 OMAR NAVA - 2021</p>
     </footer>
 
     <!-- Link to Bootstrap Javascript -->
