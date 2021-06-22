@@ -160,13 +160,3 @@ p {
         padding-right: 4rem;
     }
 }
-
-@media (max-width: 768px)
-.container, .container-md, .container-sm {
-    max-width: 80%;
-}
-
-@media (min-width: 768px)
-.container, .container-md, .container-sm {
-    max-width: 0px;
-}
