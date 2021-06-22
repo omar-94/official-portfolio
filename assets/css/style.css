@@ -20,7 +20,19 @@ p {
 
 /* NAV BAR */
 .navbar {
-    box-shadow: 0px .5px 5px black;
+    /* box-shadow: 0px .5px 5px black; */
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-menu-dark {
+    background-color: transparent !important;
 }
 
 /* OMAR NAVA TITLE */
@@ -32,7 +44,7 @@ p {
 #name-title {
     letter-spacing: 10px;
     color: white;
-    text-shadow: grey;
+    text-shadow: rgb(155, 152, 152);
 }
 
 #job-subtitle {
@@ -46,7 +58,6 @@ p {
 
 /* ABOUT ME */
 .about-me {
-    box-shadow: .5px .5px 3px black;
     padding: 5rem;
 } 
 
@@ -56,7 +67,7 @@ p {
     font-size: 1.75rem;
 }
 
-#about-me-line {
+#line-design {
     width: 150px;
     height: 1px;
     margin: -20px auto 30px auto;
@@ -79,8 +90,31 @@ p {
     line-height: 40px;
 }
 
+/* WEB DEV PROJECT SECTION */
+.web-dev-projects {
+    background-color: #d1e0e0 !important;
+}
+
+.card {
+    border: 0;
+}
+
+.py-5 {
+    padding-bottom: 2rem !important;
+}
+
+/* CONTACT ME SECTION */
+
+.contact-img {
+    padding: 10px;
+}
+
+.contact-info {
+    padding: 10px;
+}
 
 
+/* MEDIA QUERIES FOR SCREEN SIZES */
 @media screen and (min-width: 1200px) {
     .p-about-me {
         padding: 0 200px;
@@ -104,4 +138,14 @@ p {
         padding-left: 4rem;
         padding-right: 4rem;
     }
+}
+
+@media (max-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 80%;
+}
+
+@media (min-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 0px;
 }
