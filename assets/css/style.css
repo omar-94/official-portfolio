@@ -24,7 +24,8 @@ p {
 }
 
 .bg-dark {
-    background-color: transparent !important;
+    /* background-color: rgb(224, 235, 235) !important; */
+    background-color: rgb(60, 93, 93) !important;
 }
 
 .dropdown-menu {
@@ -32,7 +33,7 @@ p {
 }
 
 .dropdown-menu-dark {
-    background-color: transparent !important;
+    background-color: rgb(60, 93, 93, .9) !important;
 }
 
 /* OMAR NAVA TITLE */
