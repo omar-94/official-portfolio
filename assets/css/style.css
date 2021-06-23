@@ -3,9 +3,11 @@ html, body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
 }
+
 .row {
     margin: 0;
 }
+
 p {
     font-size: 15px;
     margin-bottom: 10px;
@@ -38,6 +40,10 @@ p {
 }
 
 /* OMAR NAVA TITLE */
+.back-img1 {
+    background-image: url("../images/portrait.jpg");
+}  
+
 #home {
     padding: 250px 0px;
     font-family: 'Raleway', sans-serif;
@@ -46,7 +52,7 @@ p {
 #name-title {
     letter-spacing: 10px;
     color: white;
-    text-shadow: rgb(155, 152, 152);
+    animation: fadeIn linear 2s;
 }
 
 #job-subtitle {
@@ -54,9 +60,38 @@ p {
     color: white;
 }
 
-.back-img1 {
-    background-image: url("../images/portrait.jpg");
-}  
+#name-title, #job-subtitle {
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+} 
 
 /* ABOUT ME */
 .about-me {
@@ -67,6 +102,7 @@ p {
     margin-bottom: 3rem;
     letter-spacing: 10px;
     font-size: 1.75rem;
+    
 }
 
 #line-design {
