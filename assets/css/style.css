@@ -41,7 +41,7 @@ p {
 
 /* OMAR NAVA TITLE */
 .back-img1 {
-    background-image: url("../images/portrait.jpg");
+    background-image: url("../images/portrait-2.jpg");
 }  
 
 #home {
@@ -52,12 +52,15 @@ p {
 #name-title {
     letter-spacing: 10px;
     color: white;
+    text-shadow: 1px 1px 5px black;
+    /* -webkit-text-stroke: .75px rgb(255, 255, 255); */
     animation: fadeIn linear 2s;
 }
 
 #job-subtitle {
     letter-spacing: 4px;
     color: white;
+    text-shadow: 1px 1px 5px black;
 }
 
 #name-title, #job-subtitle {
